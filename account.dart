@@ -62,3 +62,18 @@ if (num == 1) //main if step;
     print("ENTER PASS :");
     loginpassword = stdin.readLineSync();
   
+          if( loginemail == email && loginpassword == password) //login main IF;
+        {
+
+          print("-----------------");
+          print("--YOUR PROFILE---");
+          print("-----------------");
+
+           print("WELCOME ${name}");
+
+          print("2. VIEW AN ACCOUNT");
+          print("3. UPDATE AN ACCOUNT");
+          print("4. DELETE AN ACCOUNT");
+
+          input = stdin.readLineSync();
+          int userinput = int.parse(input);
