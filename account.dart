@@ -49,4 +49,12 @@ if (num == 1) //main if step;
 
   print("ENTER PASSWORD :");
   password = stdin.readLineSync();
+ 
+ 
+  print("YOU HAVE CREATED AN ACCOUNT");
+
+    print("ENTER EMAIL :");
+   loginemail = stdin.readLineSync();
+    print("ENTER PASS :");
+    loginpassword = stdin.readLineSync();
   
