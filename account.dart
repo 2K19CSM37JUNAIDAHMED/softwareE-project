@@ -123,6 +123,5 @@ if (num == 1) //main if step;
                                 
                                   print("PROFILE UPDATED");
 
-                                print("4. DELETE AN ACCOUNT");
-                                input = stdin.readLineSync();
-                                int delete = int.parse(input);
+                                
+
