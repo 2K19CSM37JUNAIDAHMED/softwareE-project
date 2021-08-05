@@ -77,3 +77,18 @@ if (num == 1) //main if step;
 
           input = stdin.readLineSync();
           int userinput = int.parse(input);
+
+             // nesting condition after logging in 
+
+             if (userinput == 2){
+
+                  print("---${name}'s Profile---");
+                  print("NAME : ${name}");
+                  print("EMAIL : ${email}");
+                  print("PASSWORD : ${password}");
+              
+              print("3. UPDATE AN ACCOUNT");
+              print("4. DELETE AN ACCOUNT");
+              
+              input = stdin.readLineSync();
+              int userinput = int.parse(input);
