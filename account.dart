@@ -78,7 +78,13 @@ if (num == 1) //main if step;
           input = stdin.readLineSync();
           int userinput = int.parse(input);
 
-             // nesting condition after logging in 
+             
+             
+            // nesting condition after logging in 
+
+
+
+
 
              if (userinput == 2){
 
@@ -92,3 +98,31 @@ if (num == 1) //main if step;
               
               input = stdin.readLineSync();
               int userinput = int.parse(input);
+
+
+
+              //nedted if in view;
+                  if (userinput == 3){
+
+                    print("-- UPDATE PROFILE--");
+                    print("ENTER YOUR OLD PASSWORD");
+                    oldpassword = stdin.readLineSync();
+                    
+                          //  nested if in update
+                         if (oldpassword== password){
+
+                         print("ENTER YOUR NEW PASSWORD");
+                                                  newpass = stdin.readLineSync();
+                         print("RE - ENTER YOUR NEW PASSWORD");
+                         String reenterpass = stdin.readLineSync();
+                                  //nested reenter password if;
+                        if (reenterpass == newpass){
+                                    
+                                  print("ENTER YOUR NEW NAME");
+                                  name = stdin.readLineSync();
+                                
+                                  print("PROFILE UPDATED");
+
+                                print("4. DELETE AN ACCOUNT");
+                                input = stdin.readLineSync();
+                                int delete = int.parse(input);
