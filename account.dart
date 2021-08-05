@@ -37,6 +37,9 @@ if (num == 1) //main if step;
 
   print("-----------------");
 
+
+
+
   print("CREATE AN ACCOUNT");
 
   print("-----------------");
@@ -49,6 +52,7 @@ if (num == 1) //main if step;
 
   print("ENTER PASSWORD :");
   password = stdin.readLineSync();
+
  
  
   print("YOU HAVE CREATED AN ACCOUNT");
