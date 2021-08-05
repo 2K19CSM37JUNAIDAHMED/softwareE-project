@@ -44,5 +44,5 @@ if (num == 1) //main if step;
   print("ENTER NAME :");
   name = stdin.readLineSync();
 
-  print("ENTER EMAIL : ");
+  
   
