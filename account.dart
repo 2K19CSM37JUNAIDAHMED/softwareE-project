@@ -11,6 +11,11 @@ String loginemail;
 String input;
 String oldpassword;
 String newpass;
+
+
+
+
+
 print("-----------------");
 
 print("ENTER ANY NUM :");
@@ -40,4 +45,4 @@ if (num == 1) //main if step;
   name = stdin.readLineSync();
 
   print("ENTER EMAIL : ");
-  email = stdin.readLineSync();
+  
