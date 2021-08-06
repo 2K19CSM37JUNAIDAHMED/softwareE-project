@@ -388,7 +388,26 @@ else if (num == 2) //main else if;
 
 print("NO ACCOUNT FOUND");
 
-}    
+}  
+  else if (num == 3) //main else if;
+ {
+
+print("NO ACCOUNT FOUND");
+
+ }   
+
+else if (num == 4) //main else if;
+ {
+print("NO ACCOUNT FOUND");
+ }
+   
+else {
+
+print("INVALID OPTION");
+
+  
+}
+}
 
                
                                                 
