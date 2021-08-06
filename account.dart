@@ -235,4 +235,30 @@ if (num == 1) //main if step;
 
                     print("INVALID OPTION");
                   }
-                       
+                       }
+                  //nested else if after login;
+                    else if(userinput == 3) {
+
+                    print("-- UPDATE PROFILE--");
+                    print("ENTER YOUR OLD PASSWORD");
+                    oldpassword = stdin.readLineSync();
+                    
+                          //  nested if in update
+                         if (oldpassword == password){
+
+                         print("ENTER YOUR NEW PASSWORD");
+                         newpass = stdin.readLineSync();
+                         print("RE - ENTER YOUR NEW PASSWORD");
+                         String reenterpass = stdin.readLineSync();
+                                  //nested reenter password if;
+                                if (reenterpass == newpass){
+                                    
+                                  print("ENTER YOUR NEW NAME");
+                                  name = stdin.readLineSync();
+                                
+                                  print("PROFILE UPDATED");
+  
+                                  print("3. VIEW AN ACCOUNT");
+                                  print("4. DELETE AN ACCOUNT");
+                                  input = stdin.readLineSync();
+                                  int num = int.parse(input); 
