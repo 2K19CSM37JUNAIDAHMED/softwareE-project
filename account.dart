@@ -193,5 +193,46 @@ if (num == 1) //main if step;
 
                          
                   
+                       };
+                       else if(userinput == 4){
+                           print("ARE YOU SURE?");
+                           input = stdin.readLineSync();
+                           int confirm = int.parse(input);
+
+                                              if (confirm == 1){
+
+                                                print("ACCOUNT DELETED");
+
+                                                 
+                                              name = '';
+                                              email = '';
+                                              password = '';
+
+                                                  print("1. VIEW ACCOUNT STATUS:");
+                                                  input = stdin.readLineSync();
+                                                  int confirm = int.parse(input);
+                                                     if (confirm == 1){
+
+                                                print("NAME : ${name} \n EMAIL : ${email} \n PASSWORD : ${password}" );
+                                                     }
+                                                    else {
+
+                                                      print("INVALID OPTION");
+                                                    }
+
+
+
+
+
+                                              }
+                                              else  {
+                                                print("INVALID OPTION");
+                                              }
+                        
                        }
+                  // else in view;
+                  else {
+
+                    print("INVALID OPTION");
+                  }
                        
