@@ -263,3 +263,35 @@ if (num == 1) //main if step;
                                   print("4. DELETE AN ACCOUNT");
                                   input = stdin.readLineSync();
                                   int num = int.parse(input); 
+                                  if (num == 3){
+
+                           print("---${name}'s Profile---");
+                           print("NAME : ${name}");
+                           print("EMAIL : ${email}");
+                           print("PASSWORD : ${password}");
+            
+
+
+
+
+
+                                      }
+
+
+                                      else if (num == 4 ) // if in update 
+                                          {
+
+                                      print("ARE YOU SURE?");
+                                      input = stdin.readLineSync();
+                                      int confirm = int.parse(input);
+
+                                              if (confirm == 1){
+
+                                                print("ACCOUNT DELETED");
+
+                                              
+                                              name = '';
+                                              email = '';
+                                              password = '';
+
+                                  
