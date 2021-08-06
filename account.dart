@@ -293,5 +293,51 @@ if (num == 1) //main if step;
                                               name = '';
                                               email = '';
                                               password = '';
+                                                  print("1. VIEW ACCOUNT STATUS:");
+                                                  input = stdin.readLineSync();
+                                                  int confirm = int.parse(input);
+                                                     if (confirm == 1){
+
+                                                print("NAME : ${name} \n EMAIL : ${email} \n PASSWORD : ${password}" );
+                                                     }
+                                                    else {
+
+                                                      print("INVALID OPTION");
+                                                    }
+
+
+                                              }
+                                              else  {
+                                                print("INVALID OPTION");
+                                              }
+
+                                                                                          
+
+                                        }
+                                        //else in update
+                                      else {
+                                        print("INVALID OPTOION");
+                                      }
+                                
+
+                                 } //nested renter else;
+                                 else {
+                                   print("PASSWORD DOES NOT MATCH");
+                                  
+                                 }
+
+
+                                }
+                              //nested if in update;
+                              else {
+                                print(" OLD PASSWORD DOES NOT MATCH");
+                              }
+
+                         
+                  
+                       }
+                       
+               
+                                                
 
                                   
